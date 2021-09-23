@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.878">
+    <testcase classname="search action" name="Login with valid username and password" time="20.687">
+        <system-out><![CDATA[Given Open anybrowser of choice and navigate to ebay home page..............passed
+When User enters search input "<searchvalue>" in search box.................passed
+And user selects the category "<category>" of choice........................passed
+And Click on search button..................................................passed
+And print the result of the product.........................................passed
+And display nth product details.............................................passed
+And Print all the products in first page....................................passed
+And print all the products along with scroll down...........................passed
+Then User should able to see the search results.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

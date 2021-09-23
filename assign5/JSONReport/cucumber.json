@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-22T12:12:13.297Z",
+        "line": 4,
+        "name": "Login with valid username and password",
+        "description": "",
+        "id": "search-action;login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4475399100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open anybrowser of choice and navigate to ebay home page",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.open_anybrowser_of_choice_and_navigate_to_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170115700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters search input \"\u003csearchvalue\u003e\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csearchvalue\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.Searchon_ebay.user_enters_search_input_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128544800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects the category \"\u003ccategory\u003e\" of choice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003ccategory\u003e\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.Searchon_ebay.user_selects_the_category_of_choice(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2490173000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251842400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the result of the product",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.print_the_result_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52462900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "display nth product details",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.display_nth_product_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2451823800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Print all the products in first page",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.print_all_the_products_in_first_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10642266500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "print all the products along with scroll down",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.print_all_the_products_along_with_scroll_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should able to see the search results",
+            "match": {
+              "location": "stepdefinition.Searchon_ebay.user_should_able_to_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search action",
+    "description": "    Description: This feature will test a search functionality",
+    "id": "search-action",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ebay.feature",
+    "tags": []
+  }
+]

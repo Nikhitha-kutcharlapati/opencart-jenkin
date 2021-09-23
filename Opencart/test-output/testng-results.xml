@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T13:49:12 IST" name="Default suite" finished-at="2021-09-23T13:49:49 IST" duration-ms="36899">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-23T13:49:12 IST" name="Default test" finished-at="2021-09-23T13:49:49 IST" duration-ms="36899">
+      <class name="com.runner.RunnerforLogin">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:12 IST" name="setUpClass" finished-at="2021-09-23T13:49:12 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T13:49:22 IST" duration-ms="10061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of myAccount dropdown with respect to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T13:49:33 IST" duration-ms="10739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T13:49:43 IST" duration-ms="9487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T13:49:49 IST" duration-ms="6139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of forgot password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RunnerforLogin@5d0a1059]" started-at="2021-09-23T13:49:49 IST" name="tearDownClass" finished-at="2021-09-23T13:49:49 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.RunnerforLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
